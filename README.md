@@ -5,6 +5,9 @@
 
 # Quick Community Provisioning
 
+Appexchange Listing ->
+https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000G0o0sUAB
+
 A flow template driven from custom metadata which can enable provisioning contacts right from the contact detail page. 
 
 Declarative setup can be performed using custom metadata, to outline what profile and permission set a user will need
