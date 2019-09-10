@@ -45,7 +45,11 @@ Confirgure your site information
 
 >Permission Set Name/Id(Optional)
 
-You can then include this on the contact flexipage to enable quick provisioning. 
+
+You can then include the community user provisiong flow on the contact flexipage to enable quick provisioning. 
+
+![Flexipage Setup](/screenshots/flexipage-setup.PNG)
+
 
 Ex.
 
@@ -56,3 +60,14 @@ Ex.
 
 
 ### Mobile
+
+For mobile you can create a action like so 
+
+![Setup](/screenshots/Mobile-setup.PNG)
+
+
+
+![Mobile1](/screenshots/Mobile-1.PNG)
+
+
+![Mobile2](/screenshots/mobile-2.PNG)
