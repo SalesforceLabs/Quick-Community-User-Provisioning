@@ -1,0 +1,35 @@
+<aura:component >
+    <aura:attribute name="userId" type="String"/>
+    
+    <aura:attribute name="user" type="Object" default="null" />
+    <aura:attribute name="recordLoadError" type="String"/>
+    
+    <force:recordData aura:id="recordLoader"
+                      recordId="{!v.userId}"
+                      fields="Name,Email"
+                      targetFields="{!v.user}"
+                      targetError="{!v.recordLoadError}"
+                      />
+    <aura:if isTrue="{!v.user!= null }" >
+        <lightning:card  iconName="standard:user" title="{!v.user.Name}" >
+            <aura:set attribute="actions">
+                <lightning:button label="View User" variant="Neutral"   onclick="{!c.viewUser}" />    
+            </aura:set>
+            <lightning:recordViewForm recordId="{!v.userId}" objectApiName="User">
+                <lightning:layout class="slds-wrap" > 
+                    <lightning:layoutItem size="12">
+                        <lightning:outputField fieldName="Email" />
+                    </lightning:layoutItem>
+                     <lightning:layoutItem size="12">
+                        <lightning:outputField fieldName="Username" />
+                    </lightning:layoutItem>
+                    <lightning:layoutItem size="12">
+                        <lightning:outputField fieldName="ProfileId" />
+                    </lightning:layoutItem>
+                    <lightning:layoutItem size="12">
+                    </lightning:layoutItem>
+                </lightning:layout>
+            </lightning:recordViewForm>
+        </lightning:card>
+    </aura:if>
+</aura:component>
