@@ -1,8 +1,7 @@
-<a href="https://githubsfdeploy.herokuapp.com?owner=Thomas Woodhouse&repo=https://github.com/londoner1234/Quick-Community-User-Provisioning&ref=master">
+<a href="https://githubsfdeploy.herokuapp.com?owner=SalesforceLabs&repo=https://github.com/SalesforceLabs/Quick-Community-User-Provisioning&ref=master">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
-
 
 # Quick Community Provisioning
 
@@ -28,3 +27,32 @@ When your end users are in need of provisioning contacts to community users, som
 With this functionality this takes the confusion away enabling quick and easy setup. 
 
 Even if we dont quite get it right for your companies needs you can customize to fit your needs.
+
+## Setup 
+
+All you need to do is navigate to custom metadata 
+
+### Community Setup
+
+![Community Setup](/screenshots/Custom-metadata-Community-Setup.PNG)
+
+Confirgure your site information
+>Label = Label for custom metadata
+
+>Community Setup Name = Name for custom Metadata
+
+>Community Profile Name/Id = 	Either Profile Name/Id for the community  
+
+>Permission Set Name/Id(Optional)
+
+You can then include this on the contact flexipage to enable quick provisioning. 
+
+Ex.
+
+### Desktop 
+![Screenshot1](/screenshots/Contact-Ex-Flexipage-1.PNG)
+
+![Screenshot2](/screenshots/Contact-Ex-Flexipage-2.PNG)
+
+
+### Mobile
