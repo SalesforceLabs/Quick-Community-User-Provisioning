@@ -63,7 +63,7 @@ Ex.
 
 For mobile you can create a action like so 
 
-![Setup](/screenshots/Mobile-setup.PNG)
+![Setup](/screenshots/mobile-setup.PNG)
 
 
 
