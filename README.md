@@ -3,7 +3,7 @@
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
 
-# Quick Community Provisioning
+# Quick Community User Provisioning
 
 Appexchange Listing ->
 https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000G0o0sUAB
