@@ -5,8 +5,8 @@
     <externalId>false</externalId>
     <fieldManageability>DeveloperControlled</fieldManageability>
     <label>Community Profile Name/Id</label>
-    <length>30</length>
-    <required>true</required>
+    <length>50</length>
+    <required>false</required>
     <type>Text</type>
     <unique>false</unique>
 </CustomField>

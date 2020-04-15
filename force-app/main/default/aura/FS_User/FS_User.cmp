@@ -1,3 +1,6 @@
+<!--Change Notes
+02 April 2020 - Updating force:recordData to include id field as noticed this is no longer included -->
+
 <aura:component >
     <aura:attribute name="userId" type="String"/>
     
@@ -6,7 +9,7 @@
     
     <force:recordData aura:id="recordLoader"
                       recordId="{!v.userId}"
-                      fields="Name,Email"
+                      fields="Id,Name,Email"
                       targetFields="{!v.user}"
                       targetError="{!v.recordLoadError}"
                       />

@@ -4,7 +4,7 @@
     <protected>false</protected>
     <values>
         <field>Community_Profile_Name_Id__c</field>
-        <value xsi:type="xsd:string">Customer Community Login User</value>
+        <value xsi:type="xsd:string">Customer Community Plus User</value>
     </values>
     <values>
         <field>Permission_Set_Name_Id__c</field>

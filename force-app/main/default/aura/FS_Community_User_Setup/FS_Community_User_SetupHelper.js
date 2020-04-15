@@ -1,4 +1,14 @@
 ({
+    /**
+     * Change Log: 
+     * 3 April 2020
+     * Updateting defaultFieldsDisplay to remove contact id, if we already have the community user created no need to include 
+     * This seems to throw an error when included 
+     * [ "lightning:inputField" , 
+             {"fieldName": 'ContactId',  "disabled":false, "value":  component.get("v.contactId") , "aura:id": "input_ContactId"}
+            ], 
+     * 
+     */
     defaultNewUser:function(component,event,helper) {
         let fieldInputs = [ 
             [ "lightning:inputField" , 
@@ -92,9 +102,7 @@
             [ "lightning:inputField" , 
              {"fieldName": 'LanguageLocaleKey',   "aura:id": "input_LanguageLocaleKey"}
             ], 
-            [ "lightning:inputField" , 
-             {"fieldName": 'ContactId',  "disabled":false, "value":  component.get("v.contactId") , "aura:id": "input_ContactId"}
-            ], 
+            
             [ "lightning:inputField" , 
              {"fieldName": 'IsActive', "aura:id": "input_isActive"}
             ]
